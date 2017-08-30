@@ -1,7 +1,7 @@
 # mul
 Mul is a simple async component loader for use with VueJS. The only dependency is on the Vue.component method and mul provides all the feature you need to load components asyncronously in any VueJS project.
 
-The library can be used as a script include and as a  module. Our teams have integrated it into projects using build processes ( browserify and webpack ) and using the script tag directly.
+The library can be used as a script include and as a  module. Our teams have integrated it into projects using build processes ( browserify and webpack ) and using the script tag directly. Async anywhere!
 
 Example useage:
 ```html
