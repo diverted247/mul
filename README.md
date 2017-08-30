@@ -3,6 +3,37 @@ Mul is a simpler async component loader for with VueJS. The only dependency is o
 
 The library can be used as a script include and as a  module. Our teams have integrated it into projects using build processes ( browserify and webpack ) and using the script tag directly.
 
+Example useage:
+```
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css">
+  <script src="https://unpkg.com/vue@2.4.2/dist/vue.min.js"></script>
+  <script src="../mul.js"></script>
+</head>
+<body>
+  <div id="app">
+    <toolbar>{{title}}</toolbar>
+    <loginform :title="title"></loginform>
+  </div>
+  <script>
+
+    mul.root = "comps/";
+    mul.component( "toolbar" );
+    mul.component( "loginform" );
+
+    new Vue({
+      el: '#app',
+      data: {
+        title: 'Async Vue.js'
+      }
+    })
+  </script>
+</body>
+</html>
+```
+
 The API is modeled after memcached and contains 2 core methods for getting and setting values:
 
 mul.get - Used to retrieve a remove component.
