@@ -7,7 +7,7 @@ The API is modeled after memcached and contains 2 core methods for getting and s
 
 mul.get - Used to retrieve a remove component.
 ```javascript
-mul.get( "name" ); --> implied url of "name.js"
+mul.get( "name" ); // implied url of "name.js"
 mul.get( "name" , "url" );
 ```
 
