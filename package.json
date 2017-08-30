@@ -1,0 +1,19 @@
+{
+    "name": "mul",
+    "version": "0.5.0",
+    "description": "Mul is a simpler async component loader for with VueJS.",
+    "module": "mul.js",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/diverted247/mul.git"
+    },
+    "keywords": [
+      "vue"
+    ],
+    "author": "Ted Patrick",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/diverted247/mul/issues"
+    },
+    "homepage": "https://github.com/diverted247/mul"
+  }
