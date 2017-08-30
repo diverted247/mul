@@ -1,5 +1,5 @@
 /*!
- * mul.js v0.1
+ * mul.js v0.5
  * (c) 2017 Ted Patrick
  * Released under the MIT License.
  */
